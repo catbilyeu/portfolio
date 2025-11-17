@@ -1,8 +1,8 @@
 {
-  "name": "justin-chi-portfolio",
-  "description": "Justin's Portfolio",
+  "name": "catherine-bilyeu-portfolio",
+  "description": "Cat's Portfolio",
   "version": "1.0.0",
-  "author": "Justin Chi",
+  "author": "Catherine Bilyeu",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

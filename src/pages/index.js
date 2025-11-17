@@ -33,8 +33,8 @@ export default Home;
 
 export const Head = () => (
   <>
-    <title>Justin's Portfolio</title>
-    <meta name="description" content="Justin Chi's Portfolio" />
-    <meta name="keywords" content="justin chi, portfolio, web developer" />
+    <title>Catherine's Portfolio</title>
+    <meta name="description" content="Catherine Bilyeu's Portfolio" />
+    <meta name="keywords" content="catherine bilyeu, portfolio, web developer" />
   </>
 );

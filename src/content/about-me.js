@@ -1,30 +1,30 @@
 const statements = [
   {
-    input: 'Justin.location',
-    return: '"San Jose, CA"',
+    input: 'Cat.location',
+    return: '"Chattanooga, TN"',
   },
   {
-    input: 'Justin.contact',
+    input: 'Cat.contact',
     return:
-      '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/jchi2241">github</a>"]',
+      '["<a href="mailto:catherinebilyeu@gmail.com">catherinebilyeu@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/catherine-bilyeu">LinkedIn</a>", "<a rel="noopener" href="https://github.com/catbilyeu">github</a>"]',
   },
   {
-    input: 'Justin.resume',
+    input: 'Cat.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
+      '"<a rel="noopener" href="/CatBilyeu.pdf" target="_blank">CatBilyeu.pdf</a>"',
   },
   {
-    input: 'Justin.interests',
-    return: '["design", "basketball", "cooking", "traveling"]',
+    input: 'Cat.interests',
+    return: '["design", "gaming", "training", "traveling"]',
   },
   {
-    input: 'Justin.education',
+    input: 'Cat.background',
     return:
-      '"B.Sc. Structural Engineering - University of California, San Diego"',
+      '"SysAdmin → DevOps → Manager, Platform Support → Builder"',
   },
   {
-    input: 'Justin.languages',
-    return: '["Typescript", "React", "Go", "Python"]',
+    input: 'Cat.languages',
+    return: '["Typescript*", "Python*", "Bash"]<br />// *currently leveling up',
   },
 ];
 

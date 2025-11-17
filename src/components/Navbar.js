@@ -15,6 +15,9 @@ const Navbar = () => {
         <a href="#contact" onClick={e => handleScroll(e, 'contact')}>
           Contact
         </a>
+        <a href="https://catherinebilyeu.hashnode.dev/" target="_blank" rel="noopener noreferrer">
+          Blog
+        </a>
       </nav>
     </div>
   );

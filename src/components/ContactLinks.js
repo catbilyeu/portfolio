@@ -8,16 +8,16 @@ const ContactLinks = () => {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="mailto:j.chi2241@gmail.com"
+          href="mailto:catherinebilyeu@gmail.com"
         >
-          j.chi2241@gmail.com
+          catherinebilyeu@gmail.com
         </a>
       </span>
       <span>
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://www.linkedin.com/in/justin-chi-64b12b37"
+          href="https://www.linkedin.com/in/catherine-bilyeu"
         >
           LinkedIn
         </a>
@@ -26,9 +26,18 @@ const ContactLinks = () => {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="https://github.com/jchi2241"
+          href="https://github.com/catbilyeu"
         >
           <FontAwesomeIcon icon={['fab', 'github']} />
+        </a>
+      </span>
+      <span>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://catherinebilyeu.hashnode.dev/"
+        >
+          Hashnode
         </a>
       </span>
     </div>

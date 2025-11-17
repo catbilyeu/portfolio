@@ -1,104 +1,41 @@
-import travlr from 'images/travlr.jpg';
-import stockmarketchart from 'images/stockmarketchart.jpg';
-import wakeyalarmclock from 'images/wakeyalarmclock.jpg';
-import wakeybackgrounds from 'images/wakeybackgrounds.png';
-import calculator from 'images/calculator.jpg';
-import portfolio from 'images/portfolio.png';
-import tomsmetal from 'images/tomsmetal.jpg';
+import valkyrie from 'images/valkyrie.jpg';
+import librarytracker from 'images/library-tracker.png';
+import librarybuddy from 'images/library-buddy.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 const projects = [
   {
-    title: 'Travlr',
+    title: 'Valkyrie Training - Workout App',
     description:
-      'Travel smarter by saving the places you want to go. This project was an assignment given for an interview. The requirements were to build a web-app that calls the Google Places API. It must include a map with pins and a list of locations, with some interactivity between the two.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS', 'Redux'],
-    image: travlr,
+      'A mystical workout tracking application with Firebase authentication and cloud sync. Log workout plans with set/rep and weight tracking, view progress graphs for progressive overload, and export data to PDF. Features include Google OAuth authentication, user-specific data isolation, rest timers, and a beautiful Valkyrie-inspired UI with purple-gold gradients. Built with Claude.',
+    skills: ['HTML5', 'CSS3', 'TypeScript', 'Firebase', 'Chart.js'],
+    image: valkyrie,
     links: {
-      github: 'https://github.com/jchi2241/travlr',
-      preview: 'https://travlr.justinchi.me/',
+      github: 'https://github.com/catbilyeu/workout-buddy',
+      preview: 'https://valkyrietraining.app/',
     },
   },
   {
-    title: 'Chart the Stock Market',
+    title: 'Library Tracker',
     description:
-      'This project is based off this <a href="https://www.freecodecamp.com/challenges/chart-the-stock-market">challenge</a>. Wrangled with styling HighCharts and learned the use of Promises. Data is from the <a href="https://developer.tradier.com/documentation">Tradier API</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS'],
-    image: stockmarketchart,
+      'This is a browser-first app for tracking your personal library, built with Firebase cloud sync and Google login. You can add books by typing an ISBN or scanning a barcode, and it automatically pulls metadata from Open Library. It includes a shelves view with fast search (Fuse.js), import/export tools, hands-free motion control using MediaPipe Hands, and voice commands powered by the Web Speech API. I built it with Goose for a no keyboards, no mice hackathon. It is completely functional without traditional input. The webcam acts as a motion-based cursor, and you can navigate and manage your library entirely by voice.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'Firebase', 'MediaPipe'],
+    image: librarytracker,
     links: {
-      github: 'https://github.com/jchi2241/stockmarketchart',
-      preview: 'https://stock.justinchi.me/',
+      github: 'https://github.com/catbilyeu/library-tracker',
+      preview: 'https://catbilyeu.github.io/library-tracker/',
     },
   },
   {
-    title: 'Wakey Alarm Clock',
+    title: 'Library Buddy',
     description:
-      'My first major app built with ReactJS and it was a tremendous learning experience. This project was created for a good friend - check out her <a href="http://www.xiaotongyuchi.com/wakeyalarm">mock-up</a>! Polymer components were taken directly from Google spec to ensure smooth animations on mobile (this was before Material Components existed).',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Sass',
-      'JavaScript',
-      'ReactJS',
-      'Polymer',
-      'Material Design',
-    ],
-    image: wakeyalarmclock,
+      'A magical hands-free library catalog with Firebase authentication, webcam barcode scanning, and hand gesture controls. Track your personal book collection with multi-user support, organize by series/author/genre, and manage lending with library cards. Features include MediaPipe Hands for cursor control, voice commands, OCR support with Tesseract.js, and multiple themes (Witchy, Colorful, Minimal, Bookshelf). Built with Claude.',
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'Firebase', 'Vite', 'MediaPipe', 'Tesseract.js'],
+    image: librarybuddy,
     links: {
-      github: 'https://github.com/jchi2241/alarmclock',
-      preview: 'https://alarmclock.justinchi.me/',
-    },
-  },
-  {
-    title: 'Wakey Weather Backgrounds',
-    description:
-      'Animated backgrounds for when the alarm is triggered in the <a href="https://justinchi.me/alarmclock/">Wakey Alarm Clock</a> app. CSS animations and a bit of JavaScript for the snow and rain. No external libraries.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript'],
-    image: wakeybackgrounds,
-    links: {
-      github: 'https://github.com/jchi2241/alarmclockweather_animations',
-      preview: 'https://weather-anim.justinchi.me/',
-    },
-  },
-  {
-    title: 'Google Calculator',
-    description:
-      'Applied techniques learned from <a href="https://watchandcode.com/p/practical-javascript">Practical Javascript</a> - writing requirements, iterating, and structuring app as an MVC. This really helped me build a much better foundation in JavaScript for web development. Aside from the Material Components library for the ripples, no frameworks were used. Design is based off the original <a href="https://play.google.com/store/apps/details?id=com.google.android.calculator&hl=en">Google Calculator on Android</a>.',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Sass',
-      'JavaScript',
-      'ES6',
-      'Material Components',
-    ],
-    image: calculator,
-    links: {
-      github: 'https://github.com/jchi2241/material_calculator',
-      preview: 'https://calc.justinchi.me/',
-    },
-  },
-  {
-    title: 'Portfolio',
-    description:
-      'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
-    image: portfolio,
-    links: {
-      github: 'https://github.com/jchi2241/portfolio',
-      preview: 'https://www.justinchi.me/',
-    },
-  },
-  {
-    title: "Tom's Metal Site",
-    description:
-      'A revamped version of the website of the company at my first job. You can see the original site <a href="http://www.tomsmetal.com/">here</a>. The site supports mobile, tablet, and desktop sizes. Media queries only - no external libraries or JavaScript.',
-    skills: ['HTML5', 'CSS3'],
-    image: tomsmetal,
-    links: {
-      github: 'https://github.com/jchi2241/tomsmetal_site',
-      preview: 'https://tomsmetal.justinchi.me/',
+      github: 'https://github.com/catbilyeu/library-buddy',
+      preview: 'https://catbilyeu.github.io/library-buddy/',
     },
   },
 ];
