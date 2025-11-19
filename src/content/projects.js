@@ -19,7 +19,7 @@ const projects = [
   {
     title: 'Library Tracker',
     description:
-      'This is a browser-first app for tracking your personal library, built with Firebase cloud sync and Google login. You can add books by typing an ISBN or scanning a barcode, and it automatically pulls metadata from Open Library. It includes a shelves view with fast search (Fuse.js), import/export tools, hands-free motion control using MediaPipe Hands, and voice commands powered by the Web Speech API. I built it with Goose for a no keyboards, no mice hackathon. It is completely functional without traditional input. The webcam acts as a motion-based cursor, and you can navigate and manage your library entirely by voice.',
+      'This is a browser-first app for tracking your personal library, built with Firebase cloud sync and Google login. You can add books by typing an ISBN or scanning a barcode, and it automatically pulls metadata from Open Library. It includes a shelves view with fast search (Fuse.js), import/export tools, hands-free motion control using MediaPipe Hands, and voice commands powered by the Web Speech API. I built it with Goose and GPT-5 for a no keyboards, no mice hackathon. It is completely functional without traditional input. The webcam acts as a motion-based cursor, and you can navigate and manage your library entirely by voice.',
     skills: ['HTML5', 'CSS3', 'JavaScript', 'Firebase', 'MediaPipe'],
     image: librarytracker,
     links: {
